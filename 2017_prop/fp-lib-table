@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 2017_prop)(type KiCad)(uri "$(KIPRJMOD)/2017_prop.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,1307 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4550 1700 4550 1650
+Wire Wire Line
+	4550 1700 4700 1700
+Wire Wire Line
+	4700 1700 4700 1800
+Text Label 4550 1700 0    10   ~ 0
++3V3
+Wire Wire Line
+	4500 4850 4500 4800
+Wire Wire Line
+	4350 4850 4500 4850
+Text Label 4500 4850 0    10   ~ 0
++3V3
+Wire Wire Line
+	5200 4750 5200 4900
+Text Label 5200 4750 0    10   ~ 0
++5V
+Wire Wire Line
+	4800 1800 4800 1650
+Text Label 4800 1800 0    10   ~ 0
++5V
+Wire Wire Line
+	4750 4800 4750 5000
+Wire Wire Line
+	4750 5000 4350 5000
+Text Label 4750 4800 0    10   ~ 0
++5V
+Wire Wire Line
+	8050 1900 8050 1800
+Text Label 8050 1900 0    10   ~ 0
++5V
+Wire Wire Line
+	8050 3650 8050 3550
+Text Label 8050 3650 0    10   ~ 0
++5V
+Wire Wire Line
+	8050 5400 8050 5300
+Text Label 8050 5400 0    10   ~ 0
++5V
+Wire Wire Line
+	6550 5700 6550 5850
+Text Label 6550 5700 0    10   ~ 0
++5V
+Wire Wire Line
+	6150 1600 6150 1550
+Wire Wire Line
+	6850 1600 6850 1650
+Wire Wire Line
+	6150 1600 6850 1600
+Text Label 6150 1600 0    10   ~ 0
++7.4V
+Wire Wire Line
+	6150 2900 6150 2850
+Wire Wire Line
+	6850 2900 6850 2950
+Wire Wire Line
+	6150 2900 6850 2900
+Text Label 6150 2900 0    10   ~ 0
++7.4V
+Wire Wire Line
+	6150 4200 6150 4150
+Wire Wire Line
+	6850 4200 6850 4250
+Wire Wire Line
+	6150 4200 6850 4200
+Text Label 6150 4200 0    10   ~ 0
++7.4V
+Wire Wire Line
+	3400 1950 3400 1800
+Text Label 3400 1950 0    10   ~ 0
++7.4V
+Wire Wire Line
+	5700 4900 5700 4750
+Text Label 5700 4900 0    10   ~ 0
++7.4V
+Wire Wire Line
+	4450 5300 4350 5300
+Text Label 4450 5300 0    10   ~ 0
+CLK
+Wire Wire Line
+	4350 2300 4500 2300
+Text Label 4350 2300 0    10   ~ 0
+CLK
+Wire Wire Line
+	4450 5150 4350 5150
+Text Label 4450 5150 0    10   ~ 0
+DAT
+Wire Wire Line
+	4500 2200 4350 2200
+Text Label 4500 2200 0    10   ~ 0
+DAT
+Wire Wire Line
+	6150 2250 6150 2300
+Wire Wire Line
+	6850 2250 6850 2200
+Wire Wire Line
+	6150 2250 6850 2250
+Text Label 6150 2250 0    10   ~ 0
+GND
+Wire Wire Line
+	6150 3550 6150 3600
+Wire Wire Line
+	6850 3550 6850 3500
+Wire Wire Line
+	6150 3550 6850 3550
+Text Label 6150 3550 0    10   ~ 0
+GND
+Wire Wire Line
+	6150 4850 6150 4900
+Wire Wire Line
+	6850 4850 6850 4800
+Wire Wire Line
+	6150 4850 6850 4850
+Text Label 6150 4850 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 2500 3400 2350
+Text Label 3400 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 6100 5200 5950
+Text Label 5200 6100 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 5950 5700 6100
+Text Label 5700 5950 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 4050 4900 4000
+Wire Wire Line
+	4900 4000 4900 3900
+Wire Wire Line
+	5000 3900 5000 4000
+Wire Wire Line
+	5000 4000 4900 4000
+Wire Wire Line
+	4800 3900 4800 4000
+Wire Wire Line
+	4800 4000 4900 4000
+Connection ~ 4900 4000
+Text Label 4900 4050 0    10   ~ 0
+GND
+Wire Wire Line
+	2900 3700 2900 3750
+Text Label 2900 3700 0    10   ~ 0
+GND
+Wire Wire Line
+	4450 5550 4450 5450
+Wire Wire Line
+	4450 5450 4350 5450
+Text Label 4450 5550 0    10   ~ 0
+GND
+Wire Wire Line
+	8000 2600 8000 2700
+Wire Wire Line
+	8050 2700 8050 2750
+Wire Wire Line
+	8000 2700 8050 2700
+Wire Wire Line
+	8100 2600 8100 2700
+Wire Wire Line
+	8100 2700 8050 2700
+Connection ~ 8050 2700
+Text Label 8000 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	8000 4350 8000 4450
+Wire Wire Line
+	8050 4450 8050 4500
+Wire Wire Line
+	8000 4450 8050 4450
+Wire Wire Line
+	8100 4350 8100 4450
+Wire Wire Line
+	8100 4450 8050 4450
+Connection ~ 8050 4450
+Text Label 8000 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	8000 6100 8000 6200
+Wire Wire Line
+	8050 6200 8050 6250
+Wire Wire Line
+	8000 6200 8050 6200
+Wire Wire Line
+	8100 6100 8100 6200
+Wire Wire Line
+	8100 6200 8050 6200
+Connection ~ 8050 6200
+Text Label 8000 6100 0    10   ~ 0
+GND
+Wire Wire Line
+	6450 6550 6550 6550
+Wire Wire Line
+	6550 6550 6550 6650
+Text Label 6450 6550 0    10   ~ 0
+GND
+Wire Wire Line
+	3100 5050 3300 5050
+Wire Wire Line
+	3300 5050 3300 5000
+Wire Wire Line
+	3300 5000 3450 5000
+Wire Wire Line
+	3450 5300 3250 5300
+Wire Wire Line
+	3250 5300 3250 5250
+Wire Wire Line
+	3250 5250 3100 5250
+Wire Wire Line
+	3100 4950 3250 4950
+Wire Wire Line
+	3250 4950 3250 4850
+Wire Wire Line
+	3250 4850 3450 4850
+Wire Wire Line
+	3450 5150 3100 5150
+Wire Wire Line
+	5200 5550 5200 5400
+Wire Wire Line
+	5700 5400 5700 5550
+Wire Wire Line
+	4150 2900 4500 2900
+Text Label 4150 2900 0    10   ~ 0
+PWM1
+Wire Wire Line
+	6250 1900 6500 1900
+Text Label 6250 1900 0    10   ~ 0
+PWM1
+Wire Wire Line
+	4500 2600 4150 2600
+Text Label 4500 2600 0    10   ~ 0
+PWM2
+Wire Wire Line
+	6250 3200 6500 3200
+Text Label 6250 3200 0    10   ~ 0
+PWM2
+Wire Wire Line
+	4500 2400 4150 2400
+Text Label 4500 2400 0    10   ~ 0
+PWM3
+Wire Wire Line
+	6250 4500 6500 4500
+Text Label 6250 4500 0    10   ~ 0
+PWM3
+Wire Wire Line
+	3200 3500 4500 3500
+Wire Wire Line
+	5300 2700 5450 2700
+Text Label 5300 2700 0    10   ~ 0
+TC1
+Wire Wire Line
+	8550 2200 8400 2200
+Text Label 8550 2200 0    10   ~ 0
+TC1
+Wire Wire Line
+	5450 2800 5300 2800
+Text Label 5450 2800 0    10   ~ 0
+TC2
+Wire Wire Line
+	8550 3950 8400 3950
+Text Label 8550 3950 0    10   ~ 0
+TC2
+Wire Wire Line
+	5450 2900 5300 2900
+Text Label 5450 2900 0    10   ~ 0
+TC3
+Wire Wire Line
+	8550 5700 8400 5700
+Text Label 8550 5700 0    10   ~ 0
+TC3
+Wire Wire Line
+	7550 2150 7700 2150
+Wire Wire Line
+	7550 2250 7700 2250
+Wire Wire Line
+	7550 3900 7700 3900
+Wire Wire Line
+	7550 4000 7700 4000
+Wire Wire Line
+	7550 5650 7700 5650
+Wire Wire Line
+	7700 5750 7550 5750
+Wire Wire Line
+	4500 3400 3200 3400
+Wire Wire Line
+	6450 6450 6550 6450
+Wire Wire Line
+	6550 6450 6550 6350
+Wire Wire Line
+	6600 6450 6550 6450
+Connection ~ 6550 6450
+Text Label 6450 6450 0    10   ~ 0
+FS
+Wire Wire Line
+	5450 3100 5300 3100
+Text Label 5450 3100 0    10   ~ 0
+FS
+$Comp
+L 2017_prop-eagle-import:SOURCE_BATTERY2 B1
+U 1 0 E7971931
+P 3400 2150
+F 0 "B1" H 3400 2150 50  0001 C CNN
+F 1 "SOURCE_BATTERY2" H 3400 2150 50  0001 C CNN
+F 2 "2017_prop:POWERPOLE_45A_ADJACENT" H 3400 2150 50  0001 C CNN
+F 3 "" H 3400 2150 50  0001 C CNN
+	1    3400 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:DIO_LED_1 D2
+U 1 0 0CADE672
+P 5700 5750
+F 0 "D2" H 5700 5750 50  0001 C CNN
+F 1 "DIO_LED_1" H 5700 5750 50  0001 C CNN
+F 2 "2017_prop:LED-3R_RED" H 5700 5750 50  0001 C CNN
+F 3 "" H 5700 5750 50  0001 C CNN
+	1    5700 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:DIO_LED_1 D1
+U 1 0 C78C3FBD
+P 5200 5750
+F 0 "D1" H 5200 5750 50  0001 C CNN
+F 1 "DIO_LED_1" H 5200 5750 50  0001 C CNN
+F 2 "2017_prop:LED-3R_RED" H 5200 5750 50  0001 C CNN
+F 3 "" H 5200 5750 50  0001 C CNN
+	1    5200 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:EJECTIONINTERFACE J1
+U 1 0 449C7C68
+P 3100 3450
+F 0 "J1" H 3100 3450 50  0001 C CNN
+F 1 "EJECTIONINTERFACE" H 3100 3450 50  0001 C CNN
+F 2 "2017_prop:282834-4" H 3100 3450 50  0001 C CNN
+F 3 "" H 3100 3450 50  0001 C CNN
+	1    3100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:ARDUINO J2
+U 1 0 C3E76336
+P 4900 2750
+F 0 "J2" H 4900 2750 50  0001 C CNN
+F 1 "ARDUINO" H 4900 2750 50  0001 C CNN
+F 2 "2017_prop:ARDUINOSHIELD" H 4900 2750 50  0001 C CNN
+F 3 "" H 4900 2750 50  0001 C CNN
+	1    4900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:SERVO J3
+U 1 0 B665FDA9
+P 6800 1900
+F 0 "J3" H 6800 1900 50  0001 C CNN
+F 1 "SERVO" H 6800 1900 50  0001 C CNN
+F 2 "2017_prop:282834-3" H 6800 1900 50  0001 C CNN
+F 3 "" H 6800 1900 50  0001 C CNN
+	1    6800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:SERVO J5
+U 1 0 7C49DE93
+P 6800 3200
+F 0 "J5" H 6800 3200 50  0001 C CNN
+F 1 "SERVO" H 6800 3200 50  0001 C CNN
+F 2 "2017_prop:282834-3" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:SERVO J7
+U 1 0 916830BC
+P 6800 4500
+F 0 "J7" H 6800 4500 50  0001 C CNN
+F 1 "SERVO" H 6800 4500 50  0001 C CNN
+F 2 "2017_prop:282834-3" H 6800 4500 50  0001 C CNN
+F 3 "" H 6800 4500 50  0001 C CNN
+	1    6800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:LOADCELL J4
+U 1 0 FA7CA15B
+P 3000 5100
+F 0 "J4" H 3000 5100 50  0001 C CNN
+F 1 "LOADCELL" H 3000 5100 50  0001 C CNN
+F 2 "2017_prop:282834-4" H 3000 5100 50  0001 C CNN
+F 3 "" H 3000 5100 50  0001 C CNN
+	1    3000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:THERMOCOUPLE J6
+U 1 0 C649B669
+P 7450 2200
+F 0 "J6" H 7450 2200 50  0001 C CNN
+F 1 "THERMOCOUPLE" H 7450 2200 50  0001 C CNN
+F 2 "2017_prop:282834-2" H 7450 2200 50  0001 C CNN
+F 3 "" H 7450 2200 50  0001 C CNN
+	1    7450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:THERMOCOUPLE J8
+U 1 0 BC411E6C
+P 7450 3950
+F 0 "J8" H 7450 3950 50  0001 C CNN
+F 1 "THERMOCOUPLE" H 7450 3950 50  0001 C CNN
+F 2 "2017_prop:282834-2" H 7450 3950 50  0001 C CNN
+F 3 "" H 7450 3950 50  0001 C CNN
+	1    7450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:THERMOCOUPLE J9
+U 1 0 03AFB804
+P 7450 5700
+F 0 "J9" H 7450 5700 50  0001 C CNN
+F 1 "THERMOCOUPLE" H 7450 5700 50  0001 C CNN
+F 2 "2017_prop:282834-2" H 7450 5700 50  0001 C CNN
+F 3 "" H 7450 5700 50  0001 C CNN
+	1    7450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:FLOWSWITCH J10
+U 1 0 D0FB6547
+P 6350 6500
+F 0 "J10" H 6350 6500 50  0001 C CNN
+F 1 "FLOWSWITCH" H 6350 6500 50  0001 C CNN
+F 2 "2017_prop:282834-2" H 6350 6500 50  0001 C CNN
+F 3 "" H 6350 6500 50  0001 C CNN
+	1    6350 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:V #NetPort01
+U 1 0 8EF24A36
+P 3400 1700
+F 0 "#NetPort01" H 3400 1700 50  0001 C CNN
+F 1 "7.4V" H 3400 1700 50  0001 C CNN
+F 2 "" H 3400 1700 50  0001 C CNN
+F 3 "" H 3400 1700 50  0001 C CNN
+	1    3400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:V #NetPort02
+U 1 0 04A7FE68
+P 6150 1450
+F 0 "#NetPort02" H 6150 1450 50  0001 C CNN
+F 1 "7.4V" H 6150 1450 50  0001 C CNN
+F 2 "" H 6150 1450 50  0001 C CNN
+F 3 "" H 6150 1450 50  0001 C CNN
+	1    6150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort03
+U 1 0 3FB24A17
+P 3400 2640
+F 0 "#NetPort03" H 3400 2640 50  0001 C CNN
+F 1 "GND" H 3400 2640 50  0001 C CNN
+F 2 "" H 3400 2640 50  0001 C CNN
+F 3 "" H 3400 2640 50  0001 C CNN
+	1    3400 2640
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort04
+U 1 0 967DD85E
+P 2900 3890
+F 0 "#NetPort04" H 2900 3890 50  0001 C CNN
+F 1 "GND" H 2900 3890 50  0001 C CNN
+F 2 "" H 2900 3890 50  0001 C CNN
+F 3 "" H 2900 3890 50  0001 C CNN
+	1    2900 3890
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort05
+U 1 0 115FBE32
+P 6150 2440
+F 0 "#NetPort05" H 6150 2440 50  0001 C CNN
+F 1 "GND" H 6150 2440 50  0001 C CNN
+F 2 "" H 6150 2440 50  0001 C CNN
+F 3 "" H 6150 2440 50  0001 C CNN
+	1    6150 2440
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:V #NetPort06
+U 1 0 C3494037
+P 6150 2750
+F 0 "#NetPort06" H 6150 2750 50  0001 C CNN
+F 1 "7.4V" H 6150 2750 50  0001 C CNN
+F 2 "" H 6150 2750 50  0001 C CNN
+F 3 "" H 6150 2750 50  0001 C CNN
+	1    6150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort07
+U 1 0 FFEFBFE3
+P 6150 3740
+F 0 "#NetPort07" H 6150 3740 50  0001 C CNN
+F 1 "GND" H 6150 3740 50  0001 C CNN
+F 2 "" H 6150 3740 50  0001 C CNN
+F 3 "" H 6150 3740 50  0001 C CNN
+	1    6150 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:V #NetPort08
+U 1 0 9724876B
+P 6150 4050
+F 0 "#NetPort08" H 6150 4050 50  0001 C CNN
+F 1 "7.4V" H 6150 4050 50  0001 C CNN
+F 2 "" H 6150 4050 50  0001 C CNN
+F 3 "" H 6150 4050 50  0001 C CNN
+	1    6150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort09
+U 1 0 80F25890
+P 6150 5040
+F 0 "#NetPort09" H 6150 5040 50  0001 C CNN
+F 1 "GND" H 6150 5040 50  0001 C CNN
+F 2 "" H 6150 5040 50  0001 C CNN
+F 3 "" H 6150 5040 50  0001 C CNN
+	1    6150 5040
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort010
+U 1 0 28CC61DF
+P 2900 3050
+F 0 "#NetPort010" H 2900 3050 50  0001 C CNN
+F 1 "+5V" H 2900 3050 50  0001 C CNN
+F 2 "" H 2900 3050 50  0001 C CNN
+F 3 "" H 2900 3050 50  0001 C CNN
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort011
+U 1 0 31A32E55
+P 5200 4650
+F 0 "#NetPort011" H 5200 4650 50  0001 C CNN
+F 1 "+5V" H 5200 4650 50  0001 C CNN
+F 2 "" H 5200 4650 50  0001 C CNN
+F 3 "" H 5200 4650 50  0001 C CNN
+	1    5200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort012
+U 1 0 DFEC9E79
+P 5700 6240
+F 0 "#NetPort012" H 5700 6240 50  0001 C CNN
+F 1 "GND" H 5700 6240 50  0001 C CNN
+F 2 "" H 5700 6240 50  0001 C CNN
+F 3 "" H 5700 6240 50  0001 C CNN
+	1    5700 6240
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort013
+U 1 0 29224336
+P 5200 6240
+F 0 "#NetPort013" H 5200 6240 50  0001 C CNN
+F 1 "GND" H 5200 6240 50  0001 C CNN
+F 2 "" H 5200 6240 50  0001 C CNN
+F 3 "" H 5200 6240 50  0001 C CNN
+	1    5200 6240
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:V #NetPort014
+U 1 0 581809CB
+P 5700 4650
+F 0 "#NetPort014" H 5700 4650 50  0001 C CNN
+F 1 "7.4V" H 5700 4650 50  0001 C CNN
+F 2 "" H 5700 4650 50  0001 C CNN
+F 3 "" H 5700 4650 50  0001 C CNN
+	1    5700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort015
+U 1 0 C8BA3C00
+P 4900 4190
+F 0 "#NetPort015" H 4900 4190 50  0001 C CNN
+F 1 "GND" H 4900 4190 50  0001 C CNN
+F 2 "" H 4900 4190 50  0001 C CNN
+F 3 "" H 4900 4190 50  0001 C CNN
+	1    4900 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort016
+U 1 0 FD54C515
+P 4800 1550
+F 0 "#NetPort016" H 4800 1550 50  0001 C CNN
+F 1 "+5V" H 4800 1550 50  0001 C CNN
+F 2 "" H 4800 1550 50  0001 C CNN
+F 3 "" H 4800 1550 50  0001 C CNN
+	1    4800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort017
+U 1 0 F3D8A49D
+P 4750 4700
+F 0 "#NetPort017" H 4750 4700 50  0001 C CNN
+F 1 "+5V" H 4750 4700 50  0001 C CNN
+F 2 "" H 4750 4700 50  0001 C CNN
+F 3 "" H 4750 4700 50  0001 C CNN
+	1    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+3V3 #NetPort018
+U 1 0 9DF9C0CC
+P 4550 1550
+F 0 "#NetPort018" H 4550 1550 50  0001 C CNN
+F 1 "+3V3" H 4550 1550 50  0001 C CNN
+F 2 "" H 4550 1550 50  0001 C CNN
+F 3 "" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+3V3 #NetPort019
+U 1 0 59359E55
+P 4500 4700
+F 0 "#NetPort019" H 4500 4700 50  0001 C CNN
+F 1 "+3V3" H 4500 4700 50  0001 C CNN
+F 2 "" H 4500 4700 50  0001 C CNN
+F 3 "" H 4500 4700 50  0001 C CNN
+	1    4500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort020
+U 1 0 93BE0699
+P 4450 5690
+F 0 "#NetPort020" H 4450 5690 50  0001 C CNN
+F 1 "GND" H 4450 5690 50  0001 C CNN
+F 2 "" H 4450 5690 50  0001 C CNN
+F 3 "" H 4450 5690 50  0001 C CNN
+	1    4450 5690
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:PWM1 #NetPort021
+U 1 0 649FD114
+P 4000 2900
+F 0 "#NetPort021" H 4000 2900 50  0001 C CNN
+F 1 "PWM1" H 4000 2900 50  0001 C CNN
+F 2 "" H 4000 2900 50  0001 C CNN
+F 3 "" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:PWM2 #NetPort022
+U 1 0 6BCF79B9
+P 4000 2600
+F 0 "#NetPort022" H 4000 2600 50  0001 C CNN
+F 1 "PWM2" H 4000 2600 50  0001 C CNN
+F 2 "" H 4000 2600 50  0001 C CNN
+F 3 "" H 4000 2600 50  0001 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:PWM3 #NetPort023
+U 1 0 1315D645
+P 4000 2400
+F 0 "#NetPort023" H 4000 2400 50  0001 C CNN
+F 1 "PWM3" H 4000 2400 50  0001 C CNN
+F 2 "" H 4000 2400 50  0001 C CNN
+F 3 "" H 4000 2400 50  0001 C CNN
+	1    4000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:PWM1 #NetPort024
+U 1 0 502BBCB4
+P 6100 1900
+F 0 "#NetPort024" H 6100 1900 50  0001 C CNN
+F 1 "PWM1" H 6100 1900 50  0001 C CNN
+F 2 "" H 6100 1900 50  0001 C CNN
+F 3 "" H 6100 1900 50  0001 C CNN
+	1    6100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:PWM2 #NetPort025
+U 1 0 FDC02701
+P 6100 3200
+F 0 "#NetPort025" H 6100 3200 50  0001 C CNN
+F 1 "PWM2" H 6100 3200 50  0001 C CNN
+F 2 "" H 6100 3200 50  0001 C CNN
+F 3 "" H 6100 3200 50  0001 C CNN
+	1    6100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:PWM3 #NetPort026
+U 1 0 CFD3C7B2
+P 6100 4500
+F 0 "#NetPort026" H 6100 4500 50  0001 C CNN
+F 1 "PWM3" H 6100 4500 50  0001 C CNN
+F 2 "" H 6100 4500 50  0001 C CNN
+F 3 "" H 6100 4500 50  0001 C CNN
+	1    6100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort027
+U 1 0 B407F0BF
+P 8050 2890
+F 0 "#NetPort027" H 8050 2890 50  0001 C CNN
+F 1 "GND" H 8050 2890 50  0001 C CNN
+F 2 "" H 8050 2890 50  0001 C CNN
+F 3 "" H 8050 2890 50  0001 C CNN
+	1    8050 2890
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort028
+U 1 0 B0B500C2
+P 8050 1700
+F 0 "#NetPort028" H 8050 1700 50  0001 C CNN
+F 1 "+5V" H 8050 1700 50  0001 C CNN
+F 2 "" H 8050 1700 50  0001 C CNN
+F 3 "" H 8050 1700 50  0001 C CNN
+	1    8050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort029
+U 1 0 E8716E2F
+P 8050 4640
+F 0 "#NetPort029" H 8050 4640 50  0001 C CNN
+F 1 "GND" H 8050 4640 50  0001 C CNN
+F 2 "" H 8050 4640 50  0001 C CNN
+F 3 "" H 8050 4640 50  0001 C CNN
+	1    8050 4640
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort030
+U 1 0 D79320AB
+P 8050 3450
+F 0 "#NetPort030" H 8050 3450 50  0001 C CNN
+F 1 "+5V" H 8050 3450 50  0001 C CNN
+F 2 "" H 8050 3450 50  0001 C CNN
+F 3 "" H 8050 3450 50  0001 C CNN
+	1    8050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort031
+U 1 0 ABF467E1
+P 8050 6390
+F 0 "#NetPort031" H 8050 6390 50  0001 C CNN
+F 1 "GND" H 8050 6390 50  0001 C CNN
+F 2 "" H 8050 6390 50  0001 C CNN
+F 3 "" H 8050 6390 50  0001 C CNN
+	1    8050 6390
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort032
+U 1 0 17625570
+P 8050 5200
+F 0 "#NetPort032" H 8050 5200 50  0001 C CNN
+F 1 "+5V" H 8050 5200 50  0001 C CNN
+F 2 "" H 8050 5200 50  0001 C CNN
+F 3 "" H 8050 5200 50  0001 C CNN
+	1    8050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:TC1 #NetPort033
+U 1 0 AB774F9B
+P 5600 2700
+F 0 "#NetPort033" H 5600 2700 50  0001 C CNN
+F 1 "TC1" H 5600 2700 50  0001 C CNN
+F 2 "" H 5600 2700 50  0001 C CNN
+F 3 "" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:TC2 #NetPort034
+U 1 0 A097C0AF
+P 5600 2800
+F 0 "#NetPort034" H 5600 2800 50  0001 C CNN
+F 1 "TC2" H 5600 2800 50  0001 C CNN
+F 2 "" H 5600 2800 50  0001 C CNN
+F 3 "" H 5600 2800 50  0001 C CNN
+	1    5600 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:TC3 #NetPort035
+U 1 0 B8A97CB5
+P 5600 2900
+F 0 "#NetPort035" H 5600 2900 50  0001 C CNN
+F 1 "TC3" H 5600 2900 50  0001 C CNN
+F 2 "" H 5600 2900 50  0001 C CNN
+F 3 "" H 5600 2900 50  0001 C CNN
+	1    5600 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:TC1 #NetPort036
+U 1 0 2664C41D
+P 8700 2200
+F 0 "#NetPort036" H 8700 2200 50  0001 C CNN
+F 1 "TC1" H 8700 2200 50  0001 C CNN
+F 2 "" H 8700 2200 50  0001 C CNN
+F 3 "" H 8700 2200 50  0001 C CNN
+	1    8700 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:TC2 #NetPort037
+U 1 0 8B957BD9
+P 8700 3950
+F 0 "#NetPort037" H 8700 3950 50  0001 C CNN
+F 1 "TC2" H 8700 3950 50  0001 C CNN
+F 2 "" H 8700 3950 50  0001 C CNN
+F 3 "" H 8700 3950 50  0001 C CNN
+	1    8700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:TC3 #NetPort038
+U 1 0 94DA967F
+P 8700 5700
+F 0 "#NetPort038" H 8700 5700 50  0001 C CNN
+F 1 "TC3" H 8700 5700 50  0001 C CNN
+F 2 "" H 8700 5700 50  0001 C CNN
+F 3 "" H 8700 5700 50  0001 C CNN
+	1    8700 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:DAT #NetPort039
+U 1 0 00C8470B
+P 4600 5150
+F 0 "#NetPort039" H 4600 5150 50  0001 C CNN
+F 1 "DAT" H 4600 5150 50  0001 C CNN
+F 2 "" H 4600 5150 50  0001 C CNN
+F 3 "" H 4600 5150 50  0001 C CNN
+	1    4600 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:CLK #NetPort040
+U 1 0 DF13AF15
+P 4600 5300
+F 0 "#NetPort040" H 4600 5300 50  0001 C CNN
+F 1 "CLK" H 4600 5300 50  0001 C CNN
+F 2 "" H 4600 5300 50  0001 C CNN
+F 3 "" H 4600 5300 50  0001 C CNN
+	1    4600 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:DAT_12 #NetPort041
+U 1 0 299AC9AE
+P 4200 2200
+F 0 "#NetPort041" H 4200 2200 50  0001 C CNN
+F 1 "DAT_12" H 4200 2200 50  0001 C CNN
+F 2 "" H 4200 2200 50  0001 C CNN
+F 3 "" H 4200 2200 50  0001 C CNN
+	1    4200 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:CLK_1 #NetPort042
+U 1 0 67C1EA9C
+P 4200 2300
+F 0 "#NetPort042" H 4200 2300 50  0001 C CNN
+F 1 "CLK_1" H 4200 2300 50  0001 C CNN
+F 2 "" H 4200 2300 50  0001 C CNN
+F 3 "" H 4200 2300 50  0001 C CNN
+	1    4200 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:+5V #NetPort043
+U 1 0 75DBB567
+P 6550 5600
+F 0 "#NetPort043" H 6550 5600 50  0001 C CNN
+F 1 "+5V" H 6550 5600 50  0001 C CNN
+F 2 "" H 6550 5600 50  0001 C CNN
+F 3 "" H 6550 5600 50  0001 C CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:GND #NetPort044
+U 1 0 62A60276
+P 6550 6790
+F 0 "#NetPort044" H 6550 6790 50  0001 C CNN
+F 1 "GND" H 6550 6790 50  0001 C CNN
+F 2 "" H 6550 6790 50  0001 C CNN
+F 3 "" H 6550 6790 50  0001 C CNN
+	1    6550 6790
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:FS #NetPort045
+U 1 0 3DE3E1A8
+P 6750 6450
+F 0 "#NetPort045" H 6750 6450 50  0001 C CNN
+F 1 "FS" H 6750 6450 50  0001 C CNN
+F 2 "" H 6750 6450 50  0001 C CNN
+F 3 "" H 6750 6450 50  0001 C CNN
+	1    6750 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:FS #NetPort046
+U 1 0 6061B832
+P 5600 3100
+F 0 "#NetPort046" H 5600 3100 50  0001 C CNN
+F 1 "FS" H 5600 3100 50  0001 C CNN
+F 2 "" H 5600 3100 50  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:RES_FIXED R2
+U 1 0 B1F205B3
+P 5700 5150
+F 0 "R2" H 5700 5150 50  0001 C CNN
+F 1 "315" H 5700 5150 50  0001 C CNN
+F 2 "2017_prop:RES_0603" H 5700 5150 50  0001 C CNN
+F 3 "" H 5700 5150 50  0001 C CNN
+	1    5700 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:RES_FIXED R1
+U 1 0 7623E0CC
+P 5200 5150
+F 0 "R1" H 5200 5150 50  0001 C CNN
+F 1 "150" H 5200 5150 50  0001 C CNN
+F 2 "2017_prop:RES_0603" H 5200 5150 50  0001 C CNN
+F 3 "" H 5200 5150 50  0001 C CNN
+	1    5200 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:RES_FIXED R3
+U 1 0 ABABC248
+P 6550 6100
+F 0 "R3" H 6550 6100 50  0001 C CNN
+F 1 "10k" H 6550 6100 50  0001 C CNN
+F 2 "2017_prop:RES_0603" H 6550 6100 50  0001 C CNN
+F 3 "" H 6550 6100 50  0001 C CNN
+	1    6550 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2017_prop-eagle-import:HX711BREAKOUT U1
+U 1 0 94FABF20
+P 3900 5150
+F 0 "U1" H 3900 5150 50  0001 C CNN
+F 1 "HX711BREAKOUT" H 3900 5150 50  0001 C CNN
+F 2 "2017_prop:HX711BREAKOUT" H 3900 5150 50  0001 C CNN
+F 3 "" H 3900 5150 50  0001 C CNN
+	1    3900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:AD8495BREAKOUT U2
+U 1 0 4E0AB7A9
+P 8050 2250
+F 0 "U2" H 8050 2250 50  0001 C CNN
+F 1 "AD8495BREAKOUT" H 8050 2250 50  0001 C CNN
+F 2 "2017_prop:AD8495BREAKOUT" H 8050 2250 50  0001 C CNN
+F 3 "" H 8050 2250 50  0001 C CNN
+	1    8050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:AD8495BREAKOUT U3
+U 1 0 C6A83FC2
+P 8050 4000
+F 0 "U3" H 8050 4000 50  0001 C CNN
+F 1 "AD8495BREAKOUT" H 8050 4000 50  0001 C CNN
+F 2 "2017_prop:AD8495BREAKOUT" H 8050 4000 50  0001 C CNN
+F 3 "" H 8050 4000 50  0001 C CNN
+	1    8050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2017_prop-eagle-import:AD8495BREAKOUT U4
+U 1 0 AA9079E4
+P 8050 5750
+F 0 "U4" H 8050 5750 50  0001 C CNN
+F 1 "AD8495BREAKOUT" H 8050 5750 50  0001 C CNN
+F 2 "2017_prop:AD8495BREAKOUT" H 8050 5750 50  0001 C CNN
+F 3 "" H 8050 5750 50  0001 C CNN
+	1    8050 5750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2650 2850 3750 2850
+Wire Notes Line
+	3750 2850 3750 4000
+Wire Notes Line
+	3750 4000 2650 4000
+Wire Notes Line
+	2650 4000 2650 2850
+Wire Notes Line
+	3800 1300 5900 1300
+Wire Notes Line
+	5900 1300 5900 4400
+Wire Notes Line
+	5900 4400 3800 4400
+Wire Notes Line
+	3800 4400 3800 1300
+Text Notes 3100 2850 0    97   ~ 0
+Ejection
+Text Notes 3850 1350 0    97   ~ 0
+Shield
+Wire Notes Line
+	5950 1300 7100 1300
+Wire Notes Line
+	7100 1300 7100 2550
+Wire Notes Line
+	7100 2550 5950 2550
+Wire Notes Line
+	5950 2550 5950 1300
+Text Notes 6500 1300 0    97   ~ 0
+Servo 1
+Wire Notes Line
+	5950 2600 7100 2600
+Wire Notes Line
+	7100 2600 7100 3850
+Wire Notes Line
+	7100 3850 5950 3850
+Wire Notes Line
+	5950 3850 5950 2600
+Text Notes 6450 2600 0    97   ~ 0
+Servo 2
+Wire Notes Line
+	5950 3900 7100 3900
+Wire Notes Line
+	7100 3900 7100 5150
+Wire Notes Line
+	7100 5150 5950 5150
+Wire Notes Line
+	5950 5150 5950 3900
+Text Notes 6450 3900 0    97   ~ 0
+Servo 3
+Text Notes 3200 1200 0    97   ~ 0
+Servo
+Text Notes 3150 1350 0    97   ~ 0
+Battery
+Wire Notes Line
+	3100 1150 3750 1150
+Wire Notes Line
+	3750 1150 3750 2800
+Wire Notes Line
+	3750 2800 3100 2800
+Wire Notes Line
+	3100 2800 3100 1150
+Wire Notes Line
+	4950 4450 5400 4450
+Wire Notes Line
+	5400 4450 5400 6400
+Wire Notes Line
+	5400 6400 4950 6400
+Wire Notes Line
+	4950 6400 4950 4450
+Wire Notes Line
+	5450 4450 5900 4450
+Wire Notes Line
+	5900 4450 5900 6400
+Wire Notes Line
+	5900 6400 5450 6400
+Wire Notes Line
+	5450 6400 5450 4450
+Text Notes 2750 4450 0    97   ~ 0
+Load Cell
+Wire Notes Line
+	2700 4450 4900 4450
+Wire Notes Line
+	4900 4450 4900 5800
+Wire Notes Line
+	4900 5800 2700 5800
+Wire Notes Line
+	2700 5800 2700 4450
+Text Notes 7200 1300 0    97   ~ 0
+Thermocouple 1
+Wire Notes Line
+	7150 1300 8900 1300
+Wire Notes Line
+	8900 1300 8900 3000
+Wire Notes Line
+	8900 3000 7150 3000
+Wire Notes Line
+	7150 3000 7150 1300
+Text Notes 7200 3050 0    97   ~ 0
+Thermocouple 2
+Wire Notes Line
+	7150 3050 8900 3050
+Wire Notes Line
+	8900 3050 8900 4750
+Wire Notes Line
+	8900 4750 7150 4750
+Wire Notes Line
+	7150 4750 7150 3050
+Text Notes 7200 4800 0    97   ~ 0
+Thermocouple 3
+Wire Notes Line
+	7150 4800 8900 4800
+Wire Notes Line
+	8900 4800 8900 6500
+Wire Notes Line
+	8900 6500 7150 6500
+Wire Notes Line
+	7150 6500 7150 4800
+Text Notes 6100 5250 0    97   ~ 0
+Flow Switch
+Wire Notes Line
+	5950 5200 7100 5200
+Wire Notes Line
+	7100 5200 7100 6950
+Wire Notes Line
+	7100 6950 5950 6950
+Wire Notes Line
+	5950 6950 5950 5200
+Text Notes 3325 2187 0    58   ~ 0
+B1
+Text Notes 5582 5799 0    58   ~ 0
+D2
+Text Notes 5082 5786 0    58   ~ 0
+D1
+Text Notes 2950 3481 0    58   ~ 0
+J1
+Text Notes 5200 1800 0    58   ~ 0
+J2
+Text Notes 6975 1944 0    58   ~ 0
+J3
+Text Notes 6975 3244 0    58   ~ 0
+J5
+Text Notes 6975 4543 0    58   ~ 0
+J7
+Text Notes 2955 4850 0    58   ~ 0
+J4
+Text Notes 7407 2050 0    58   ~ 0
+J6
+Text Notes 7406 3800 0    58   ~ 0
+J8
+Text Notes 7407 5550 0    58   ~ 0
+J9
+Text Notes 6290 6350 0    58   ~ 0
+J10
+Text Notes 3305 1560 0    58   ~ 0
+7.4V
+Text Notes 6055 1310 0    58   ~ 0
+7.4V
+Text Notes 3325 2721 0    58   ~ 0
+GND
+Text Notes 2825 3971 0    58   ~ 0
+GND
+Text Notes 6075 2521 0    58   ~ 0
+GND
+Text Notes 6055 2610 0    58   ~ 0
+7.4V
+Text Notes 6075 3821 0    58   ~ 0
+GND
+Text Notes 6055 3910 0    58   ~ 0
+7.4V
+Text Notes 6075 5120 0    58   ~ 0
+GND
+Text Notes 2813 2991 0    58   ~ 0
++5V
+Text Notes 5113 4590 0    58   ~ 0
++5V
+Text Notes 5625 6320 0    58   ~ 0
+GND
+Text Notes 5125 6320 0    58   ~ 0
+GND
+Text Notes 5605 4509 0    58   ~ 0
+7.4V
+Text Notes 4825 4270 0    58   ~ 0
+GND
+Text Notes 4713 1491 0    58   ~ 0
++5V
+Text Notes 4663 4640 0    58   ~ 0
++5V
+Text Notes 4434 1491 0    58   ~ 0
++3V3
+Text Notes 4384 4640 0    58   ~ 0
++3V3
+Text Notes 4375 5770 0    58   ~ 0
+GND
+Text Notes 3894 3041 0    58   ~ 0
+PWM1
+Text Notes 3881 2741 0    58   ~ 0
+PWM2
+Text Notes 3881 2541 0    58   ~ 0
+PWM3
+Text Notes 5994 1841 0    58   ~ 0
+PWM1
+Text Notes 5981 3141 0    58   ~ 0
+PWM2
+Text Notes 5981 4440 0    58   ~ 0
+PWM3
+Text Notes 7975 2971 0    58   ~ 0
+GND
+Text Notes 7962 1641 0    58   ~ 0
++5V
+Text Notes 7975 4720 0    58   ~ 0
+GND
+Text Notes 7962 3391 0    58   ~ 0
++5V
+Text Notes 7975 6470 0    58   ~ 0
+GND
+Text Notes 7962 5140 0    58   ~ 0
++5V
+Text Notes 5683 2766 0    58   ~ 0
+TC1
+Text Notes 5670 2866 0    58   ~ 0
+TC2
+Text Notes 5670 2966 0    58   ~ 0
+TC3
+Text Notes 8632 2141 0    58   ~ 0
+TC1
+Text Notes 8619 3891 0    58   ~ 0
+TC2
+Text Notes 8619 5640 0    58   ~ 0
+TC3
+Text Notes 4694 5215 0    58   ~ 0
+DAT
+Text Notes 4698 5365 0    58   ~ 0
+CLK
+Text Notes 3944 2266 0    58   ~ 0
+DAT
+Text Notes 3948 2366 0    58   ~ 0
+CLK
+Text Notes 6463 5540 0    58   ~ 0
++5V
+Text Notes 6475 6870 0    58   ~ 0
+GND
+Text Notes 6851 6515 0    58   ~ 0
+FS
+Text Notes 5702 3166 0    58   ~ 0
+FS
+Text Notes 5641 5199 0    58   ~ 0
+R2
+Text Notes 5760 5215 0    58   ~ 0
+315
+Text Notes 5141 5186 0    58   ~ 0
+R1
+Text Notes 5260 5215 0    58   ~ 0
+150
+Text Notes 6491 6149 0    58   ~ 0
+R3
+Text Notes 6610 6161 0    58   ~ 0
+10k
+Text Notes 3864 4750 0    58   ~ 0
+U1
+Text Notes 8300 2000 0    58   ~ 0
+U2
+Text Notes 8300 3750 0    58   ~ 0
+U3
+Text Notes 8300 5500 0    58   ~ 0
+U4
+$EndSCHEMATC

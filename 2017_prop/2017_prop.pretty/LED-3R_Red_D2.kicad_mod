@@ -1,0 +1,15 @@
+(module LED-3R_Red_D2 (layer F.Cu) (tedit 0)
+  (descr "Description: LED")
+  (fp_text reference D2 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value DIO_LED_1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_arc (start -0.002423 -0.022026) (end 1.058 -1.19) (angle -82.882236) (layer F.SilkS) (width 0.25))
+  (fp_arc (start -0.002423 0.022026) (end -1.03 1.219) (angle -82.882236) (layer F.SilkS) (width 0.25))
+  (pad 2 thru_hole circle (at 1.27 0) (size 1.5 1.5) (drill 0.889) (layers *.Cu *.Mask)
+    (zone_connect 2))
+  (pad 1 thru_hole rect (at -1.27 0) (size 1.5 1.5) (drill 0.889) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)
