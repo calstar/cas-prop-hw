@@ -1,0 +1,361 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small_US Resistor
+U 1 1 603CC476
+P 1000 4950
+F 0 "Resistor" H 1068 4996 50  0000 L CNN
+F 1 "R" H 1068 4905 50  0000 L CNN
+F 2 "" H 1000 4950 50  0001 C CNN
+F 3 "~" H 1000 4950 50  0001 C CNN
+	1    1000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US Resistor?
+U 1 1 603CF45C
+P 1800 4950
+F 0 "Resistor?" H 1868 4996 50  0000 L CNN
+F 1 "R" H 1868 4905 50  0000 L CNN
+F 2 "" H 1800 4950 50  0001 C CNN
+F 3 "~" H 1800 4950 50  0001 C CNN
+	1    1800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US Resistor?
+U 1 1 603CFC92
+P 1450 4600
+F 0 "Resistor?" V 1245 4600 50  0000 C CNN
+F 1 "R" V 1336 4600 50  0000 C CNN
+F 2 "" H 1450 4600 50  0001 C CNN
+F 3 "~" H 1450 4600 50  0001 C CNN
+	1    1450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US Resistor?
+U 1 1 603D132C
+P 1450 5350
+F 0 "Resistor?" V 1245 5350 50  0000 C CNN
+F 1 "R" V 1336 5350 50  0000 C CNN
+F 2 "" H 1450 5350 50  0001 C CNN
+F 3 "~" H 1450 5350 50  0001 C CNN
+	1    1450 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 5050 1000 5350
+Wire Wire Line
+	1000 5350 1350 5350
+Wire Wire Line
+	1550 5350 1800 5350
+Wire Wire Line
+	1800 5350 1800 5050
+Wire Wire Line
+	1800 4850 1800 4600
+Wire Wire Line
+	1800 4600 1550 4600
+Wire Wire Line
+	1350 4600 1000 4600
+Wire Wire Line
+	1000 4600 1000 4850
+Wire Wire Line
+	1000 3750 1000 4600
+Connection ~ 1000 4600
+Wire Wire Line
+	1800 3900 1800 4600
+Wire Wire Line
+	1800 3900 2450 3900
+Connection ~ 1800 4600
+Wire Wire Line
+	2450 4050 650  4050
+Wire Wire Line
+	650  4050 650  5350
+Wire Wire Line
+	650  5350 1000 5350
+Connection ~ 1000 5350
+Wire Wire Line
+	2450 4200 2050 4200
+Wire Wire Line
+	2050 4200 2050 5350
+Wire Wire Line
+	2050 5350 1800 5350
+Connection ~ 1800 5350
+Wire Wire Line
+	3550 4200 3850 4200
+$Comp
+L M3021_Lib:M3021 U?
+U 1 1 603D9F74
+P 2350 2450
+F 0 "U?" H 2350 2865 50  0000 C CNN
+F 1 "M3021" H 2350 2774 50  0000 C CNN
+F 2 "" H 2350 2450 50  0001 C CNN
+F 3 "" H 2350 2450 50  0001 C CNN
+	1    2350 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1000 3750
+Wire Wire Line
+	1000 3750 2400 3750
+Wire Wire Line
+	1850 2350 1600 2350
+Wire Wire Line
+	1500 2550 1850 2550
+Wire Wire Line
+	1500 1450 1500 2550
+Wire Wire Line
+	1600 1550 1600 2350
+Text GLabel 4850 1550 2    50   Input ~ 0
+SCK
+Text GLabel 4850 1450 2    50   Input ~ 0
+MISO
+$Comp
+L FX292X_Lib:FX292X U?
+U 1 1 603BDAFB
+P 3000 3850
+F 0 "U?" H 3000 4215 50  0000 C CNN
+F 1 "FX292X" H 3000 4124 50  0000 C CNN
+F 2 "" H 3000 3850 50  0001 C CNN
+F 3 "" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1984989:1984989 J?
+U 1 1 603B895C
+P 9650 1700
+F 0 "J?" H 9757 2067 50  0000 C CNN
+F 1 "1984989" H 9757 1976 50  0000 C CNN
+F 2 "PHOENIX_1984989" H 9650 1700 50  0001 L BNN
+F 3 "" H 9650 1700 50  0001 L BNN
+F 4 "Phoenix Contact" H 9650 1700 50  0001 L BNN "MANUFACTURER"
+F 5 "2018-11-03" H 9650 1700 50  0001 L BNN "PARTREV"
+F 6 "13.1mm" H 9650 1700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer recommendations" H 9650 1700 50  0001 L BNN "STANDARD"
+	1    9650 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 2650 0    50   ~ 0
+Thermocouple
+Text Notes 5000 1300 0    50   ~ 0
+Microcontroller
+Wire Notes Line
+	4750 2150 5850 2150
+Wire Notes Line
+	4750 2700 4750 2150
+Wire Notes Line
+	5850 2700 4750 2700
+Wire Notes Line
+	5850 2150 5850 2700
+Wire Notes Line
+	4750 1150 5850 1150
+Wire Notes Line
+	4750 1900 4750 1150
+Wire Notes Line
+	5850 1900 4750 1900
+Wire Notes Line
+	5850 1150 5850 1900
+Text GLabel 5700 1650 0    50   Input ~ 0
+SCK
+Text GLabel 5700 1450 0    50   Input ~ 0
+MISO
+Text GLabel 5700 1550 0    50   Input ~ 0
+SSB
+Wire Wire Line
+	5700 1450 9100 1450
+Wire Wire Line
+	5700 1550 7000 1550
+Wire Wire Line
+	5700 1650 6900 1650
+Wire Wire Line
+	5700 2300 7200 2300
+Text GLabel 5700 2300 0    50   Input ~ 0
+Chromel_Lead
+Text GLabel 5700 2400 0    50   Input ~ 0
+Alumel_Lead
+Text GLabel 9650 750  2    50   Input ~ 0
+PWR
+Wire Wire Line
+	6900 2200 6900 1650
+Wire Wire Line
+	7200 2200 6900 2200
+Wire Wire Line
+	7000 2100 7000 1550
+Wire Wire Line
+	7200 2100 7000 2100
+Connection ~ 8850 1900
+Wire Wire Line
+	8850 750  8850 1900
+Wire Wire Line
+	9100 2100 9100 1450
+Wire Wire Line
+	8600 2100 9100 2100
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2700 8850 2800
+Wire Wire Line
+	8850 1900 8850 2200
+$Comp
+L pspice:CAP C?
+U 1 1 603AE0E4
+P 8850 2450
+F 0 "C?" H 9028 2496 50  0000 L CNN
+F 1 "0.1uF" H 9028 2405 50  0000 L CNN
+F 2 "" H 8850 2450 50  0001 C CNN
+F 3 "~" H 8850 2450 50  0001 C CNN
+	1    8850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1900 8850 1900
+Wire Wire Line
+	8600 2800 8850 2800
+$Comp
+L MAX6675ISA_:MAX6675ISA+ U?
+U 1 1 603AAC05
+P 7900 2400
+F 0 "U?" H 7900 3170 50  0000 C CNN
+F 1 "MAX6675ISA+" H 7900 3079 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 7900 2400 50  0001 L BNN
+F 3 "" H 7900 2400 50  0001 L BNN
+	1    7900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1450 4850 1450
+Wire Wire Line
+	1600 1550 4850 1550
+Wire Wire Line
+	5700 2400 6900 2400
+Wire Wire Line
+	8850 2800 8850 3300
+Wire Wire Line
+	8850 3300 6900 3300
+Wire Wire Line
+	6900 3300 6900 2400
+Connection ~ 6900 2400
+Wire Wire Line
+	6900 2400 7200 2400
+Wire Wire Line
+	6900 3300 3850 3300
+Connection ~ 6900 3300
+Wire Wire Line
+	3850 2500 3850 2700
+Wire Wire Line
+	3550 3900 4150 3900
+Wire Wire Line
+	4150 3900 4150 1700
+Wire Wire Line
+	4150 1700 4850 1700
+Wire Wire Line
+	3550 4050 4250 4050
+Wire Wire Line
+	4250 4050 4250 1800
+Wire Wire Line
+	4250 1800 4850 1800
+Text GLabel 4850 1800 2    50   Input ~ 0
+SCK
+Text GLabel 4850 1700 2    50   Input ~ 0
+MISO
+Text Notes 7750 2450 0    50   ~ 0
+Thermocouple\nConnector
+Text Notes 2200 2900 0    50   ~ 0
+Pressure\nTransducer
+Text Notes 2850 3800 0    50   ~ 0
+Load Cell
+Wire Wire Line
+	1000 750  3850 750 
+$Comp
+L pspice:CAP C?
+U 1 1 6041617D
+P 3850 2450
+F 0 "C?" H 4028 2496 50  0000 L CNN
+F 1 "0.1uF" H 4028 2405 50  0000 L CNN
+F 2 "" H 3850 2450 50  0001 C CNN
+F 3 "~" H 3850 2450 50  0001 C CNN
+	1    3850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2350 3300 2350
+Wire Wire Line
+	3300 2350 3300 1700
+Wire Wire Line
+	3300 1700 3850 1700
+Wire Wire Line
+	3850 1700 3850 2200
+Wire Wire Line
+	3850 1700 3850 750 
+Connection ~ 3850 1700
+Connection ~ 3850 750 
+Wire Wire Line
+	3850 750  8850 750 
+Connection ~ 3850 3300
+Wire Wire Line
+	3850 2700 3850 3300
+Wire Wire Line
+	3300 2550 3300 3300
+Wire Wire Line
+	3300 3300 3850 3300
+Wire Wire Line
+	2850 2550 3300 2550
+Connection ~ 2400 3750
+Wire Wire Line
+	2400 3750 2450 3750
+$Comp
+L pspice:CAP C?
+U 1 1 60425283
+P 2400 4900
+F 0 "C?" H 2578 4946 50  0000 L CNN
+F 1 "0.1uF" H 2578 4855 50  0000 L CNN
+F 2 "" H 2400 4900 50  0001 C CNN
+F 3 "~" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3750 2400 4650
+Wire Wire Line
+	2400 5150 2400 5350
+Wire Wire Line
+	3850 4200 3850 5350
+Wire Wire Line
+	2400 5350 3850 5350
+Connection ~ 3850 4200
+Wire Wire Line
+	2400 5350 2400 5650
+Connection ~ 2400 5350
+$Comp
+L power:GND #PWR?
+U 1 1 604344AD
+P 2400 5650
+F 0 "#PWR?" H 2400 5400 50  0001 C CNN
+F 1 "GND" H 2405 5477 50  0000 C CNN
+F 2 "" H 2400 5650 50  0001 C CNN
+F 3 "" H 2400 5650 50  0001 C CNN
+	1    2400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 750  1000 3750
+Connection ~ 3850 2700
+Wire Wire Line
+	3850 3300 3850 4200
+Wire Wire Line
+	8850 750  9650 750 
+Connection ~ 8850 750 
+$EndSCHEMATC

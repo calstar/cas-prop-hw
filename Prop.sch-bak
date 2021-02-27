@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 603C0CE9
+P 4400 6700
+F 0 "#PWR?" H 4400 6450 50  0001 C CNN
+F 1 "GND" H 4405 6527 50  0000 C CNN
+F 2 "" H 4400 6700 50  0001 C CNN
+F 3 "" H 4400 6700 50  0001 C CNN
+	1    4400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US Resistor
+U 1 1 603CC476
+P 1550 6400
+F 0 "Resistor" H 1618 6446 50  0000 L CNN
+F 1 "R" H 1618 6355 50  0000 L CNN
+F 2 "" H 1550 6400 50  0001 C CNN
+F 3 "~" H 1550 6400 50  0001 C CNN
+	1    1550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US Resistor?
+U 1 1 603CF45C
+P 2350 6400
+F 0 "Resistor?" H 2418 6446 50  0000 L CNN
+F 1 "R" H 2418 6355 50  0000 L CNN
+F 2 "" H 2350 6400 50  0001 C CNN
+F 3 "~" H 2350 6400 50  0001 C CNN
+	1    2350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US Resistor?
+U 1 1 603CFC92
+P 2000 6050
+F 0 "Resistor?" V 1795 6050 50  0000 C CNN
+F 1 "R" V 1886 6050 50  0000 C CNN
+F 2 "" H 2000 6050 50  0001 C CNN
+F 3 "~" H 2000 6050 50  0001 C CNN
+	1    2000 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US Resistor?
+U 1 1 603D132C
+P 2000 6800
+F 0 "Resistor?" V 1795 6800 50  0000 C CNN
+F 1 "R" V 1886 6800 50  0000 C CNN
+F 2 "" H 2000 6800 50  0001 C CNN
+F 3 "~" H 2000 6800 50  0001 C CNN
+	1    2000 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 6500 1550 6800
+Wire Wire Line
+	1550 6800 1900 6800
+Wire Wire Line
+	2100 6800 2350 6800
+Wire Wire Line
+	2350 6800 2350 6500
+Wire Wire Line
+	2350 6300 2350 6050
+Wire Wire Line
+	2350 6050 2100 6050
+Wire Wire Line
+	1900 6050 1550 6050
+Wire Wire Line
+	1550 6050 1550 6300
+Wire Wire Line
+	1550 5200 1550 6050
+Connection ~ 1550 6050
+Wire Wire Line
+	2350 5350 2350 6050
+Wire Wire Line
+	2350 5350 3000 5350
+Connection ~ 2350 6050
+Wire Wire Line
+	3000 5500 1200 5500
+Wire Wire Line
+	1200 5500 1200 6800
+Wire Wire Line
+	1200 6800 1550 6800
+Connection ~ 1550 6800
+Wire Wire Line
+	3000 5650 2600 5650
+Wire Wire Line
+	2600 5650 2600 6800
+Wire Wire Line
+	2600 6800 2350 6800
+Connection ~ 2350 6800
+Wire Wire Line
+	4100 5650 4400 5650
+Wire Wire Line
+	4400 5650 4400 6700
+$Comp
+L M3021_Lib:M3021 U?
+U 1 1 603D9F74
+P 2900 3100
+F 0 "U?" H 2900 3515 50  0000 C CNN
+F 1 "M3021" H 2900 3424 50  0000 C CNN
+F 2 "" H 2900 3100 50  0001 C CNN
+F 3 "" H 2900 3100 50  0001 C CNN
+	1    2900 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 5200
+Wire Wire Line
+	1550 5200 3000 5200
+Wire Wire Line
+	2400 3000 2150 3000
+Wire Wire Line
+	2050 3200 2400 3200
+Wire Wire Line
+	2050 2100 2050 3200
+Wire Wire Line
+	2150 2200 2150 3000
+Text GLabel 5400 2200 2    50   Input ~ 0
+SCK
+Text GLabel 5400 2100 2    50   Input ~ 0
+MISO
+Connection ~ 9400 1400
+$Comp
+L FX292X_Lib:FX292X U?
+U 1 1 603BDAFB
+P 3550 5300
+F 0 "U?" H 3550 5665 50  0000 C CNN
+F 1 "FX292X" H 3550 5574 50  0000 C CNN
+F 2 "" H 3550 5300 50  0001 C CNN
+F 3 "" H 3550 5300 50  0001 C CNN
+	1    3550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1984989:1984989 J?
+U 1 1 603B895C
+P 8950 4600
+F 0 "J?" H 9057 4967 50  0000 C CNN
+F 1 "1984989" H 9057 4876 50  0000 C CNN
+F 2 "PHOENIX_1984989" H 8950 4600 50  0001 L BNN
+F 3 "" H 8950 4600 50  0001 L BNN
+F 4 "Phoenix Contact" H 8950 4600 50  0001 L BNN "MANUFACTURER"
+F 5 "2018-11-03" H 8950 4600 50  0001 L BNN "PARTREV"
+F 6 "13.1mm" H 8950 4600 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer recommendations" H 8950 4600 50  0001 L BNN "STANDARD"
+	1    8950 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 3300 0    50   ~ 0
+Thermocouple
+Text Notes 5550 1950 0    50   ~ 0
+Microcontroller
+Wire Notes Line
+	5300 2800 6400 2800
+Wire Notes Line
+	5300 3350 5300 2800
+Wire Notes Line
+	6400 3350 5300 3350
+Wire Notes Line
+	6400 2800 6400 3350
+Wire Notes Line
+	5300 1800 6400 1800
+Wire Notes Line
+	5300 2550 5300 1800
+Wire Notes Line
+	6400 2550 5300 2550
+Wire Notes Line
+	6400 1800 6400 2550
+Text GLabel 6250 2300 0    50   Input ~ 0
+SCK
+Text GLabel 6250 2100 0    50   Input ~ 0
+MISO
+Text GLabel 6250 2200 0    50   Input ~ 0
+SSB
+Wire Wire Line
+	6250 2100 9650 2100
+Wire Wire Line
+	6250 2200 7550 2200
+Wire Wire Line
+	6250 2300 7450 2300
+Wire Wire Line
+	6250 2950 7750 2950
+Text GLabel 6250 2950 0    50   Input ~ 0
+Chromel_Lead
+Text GLabel 6250 3050 0    50   Input ~ 0
+Alumel_Lead
+Text GLabel 9650 1400 2    50   Input ~ 0
+PWR
+Wire Wire Line
+	7450 2850 7450 2300
+Wire Wire Line
+	7750 2850 7450 2850
+Wire Wire Line
+	7550 2750 7550 2200
+Wire Wire Line
+	7750 2750 7550 2750
+Wire Wire Line
+	9400 1400 9650 1400
+Connection ~ 9400 2550
+Wire Wire Line
+	9400 1400 9400 2550
+Wire Wire Line
+	9650 2750 9650 2100
+Wire Wire Line
+	9150 2750 9650 2750
+Connection ~ 9400 3450
+Wire Wire Line
+	9400 3350 9400 3450
+Wire Wire Line
+	9400 2550 9400 2850
+$Comp
+L pspice:CAP C?
+U 1 1 603AE0E4
+P 9400 3100
+F 0 "C?" H 9578 3146 50  0000 L CNN
+F 1 "0.1uF" H 9578 3055 50  0000 L CNN
+F 2 "" H 9400 3100 50  0001 C CNN
+F 3 "~" H 9400 3100 50  0001 C CNN
+	1    9400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2550 9400 2550
+Wire Wire Line
+	9150 3450 9400 3450
+$Comp
+L MAX6675ISA_:MAX6675ISA+ U?
+U 1 1 603AAC05
+P 8450 3050
+F 0 "U?" H 8450 3820 50  0000 C CNN
+F 1 "MAX6675ISA+" H 8450 3729 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 8450 3050 50  0001 L BNN
+F 3 "" H 8450 3050 50  0001 L BNN
+	1    8450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2100 5400 2100
+Wire Wire Line
+	2150 2200 5400 2200
+Wire Wire Line
+	1550 1400 1550 5200
+Wire Wire Line
+	6250 3050 7450 3050
+Wire Wire Line
+	9400 3450 9400 3950
+Wire Wire Line
+	9400 3950 7450 3950
+Wire Wire Line
+	7450 3950 7450 3050
+Connection ~ 7450 3050
+Wire Wire Line
+	7450 3050 7750 3050
+Wire Wire Line
+	7450 3950 4400 3950
+Connection ~ 7450 3950
+Connection ~ 4400 5650
+Wire Wire Line
+	4400 3200 4400 3950
+Connection ~ 4400 3950
+Wire Wire Line
+	4400 3950 4400 5650
+Wire Wire Line
+	3400 3200 4400 3200
+Wire Wire Line
+	1550 1400 4400 1400
+Wire Wire Line
+	4400 3000 4400 1400
+Wire Wire Line
+	3400 3000 4400 3000
+Connection ~ 4400 1400
+Wire Wire Line
+	4400 1400 9400 1400
+Wire Wire Line
+	4100 5350 4700 5350
+Wire Wire Line
+	4700 5350 4700 2350
+Wire Wire Line
+	4700 2350 5400 2350
+Wire Wire Line
+	4100 5500 4800 5500
+Wire Wire Line
+	4800 5500 4800 2450
+Wire Wire Line
+	4800 2450 5400 2450
+Text GLabel 5400 2450 2    50   Input ~ 0
+SCK
+Text GLabel 5400 2350 2    50   Input ~ 0
+MISO
+$EndSCHEMATC
