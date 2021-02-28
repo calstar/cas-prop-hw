@@ -57,21 +57,6 @@ Chromel_Lead
 Text GLabel 4800 1900 0    50   Input ~ 0
 Alumel_Lead
 Connection ~ 7300 2300
-Wire Wire Line
-	7300 2200 7300 2300
-Wire Wire Line
-	7300 1400 7300 1700
-$Comp
-L pspice:CAP C?
-U 1 1 603AE0E4
-P 7300 1950
-F 0 "C?" H 7478 1996 50  0000 L CNN
-F 1 "0.1uF" H 7478 1905 50  0000 L CNN
-F 2 "" H 7300 1950 50  0001 C CNN
-F 3 "~" H 7300 1950 50  0001 C CNN
-	1    7300 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L MAX6675ISA_:MAX6675ISA+ U?
 U 1 1 603AAC05
@@ -93,17 +78,6 @@ Text Notes 5900 1950 0    50   ~ 0
 Thermocouple\nConnector
 Text Notes 2000 1900 0    50   ~ 0
 Pressure\nTransducer
-$Comp
-L pspice:CAP C?
-U 1 1 6041617D
-P 3150 1800
-F 0 "C?" H 3328 1846 50  0000 L CNN
-F 1 "0.1uF" H 3328 1755 50  0000 L CNN
-F 2 "" H 3150 1800 50  0001 C CNN
-F 3 "~" H 3150 1800 50  0001 C CNN
-	1    3150 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 1900 5050 1900
 Connection ~ 5050 1900
@@ -130,8 +104,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 1550 1350 1550
 Wire Wire Line
-	2650 1350 3150 1350
-Wire Wire Line
 	2850 1550 2650 1550
 $Comp
 L power:+5V #PWR?
@@ -147,25 +119,25 @@ $EndComp
 Wire Wire Line
 	3150 1200 3150 1350
 Wire Wire Line
-	3150 2050 3150 2200
+	3150 1850 3150 2000
 Wire Wire Line
-	3150 2200 2850 2200
+	3150 2000 2850 2000
 Wire Wire Line
-	2850 2200 2850 1550
+	2850 2000 2850 1550
 $Comp
 L power:GND #PWR?
 U 1 1 603FE602
-P 3150 2350
-F 0 "#PWR?" H 3150 2100 50  0001 C CNN
-F 1 "GND" H 3155 2177 50  0000 C CNN
-F 2 "" H 3150 2350 50  0001 C CNN
-F 3 "" H 3150 2350 50  0001 C CNN
-	1    3150 2350
+P 3150 2150
+F 0 "#PWR?" H 3150 1900 50  0001 C CNN
+F 1 "GND" H 3155 1977 50  0000 C CNN
+F 2 "" H 3150 2150 50  0001 C CNN
+F 3 "" H 3150 2150 50  0001 C CNN
+	1    3150 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 2350 3150 2200
-Connection ~ 3150 2200
+	3150 2150 3150 2000
+Connection ~ 3150 2000
 Wire Wire Line
 	7300 1400 7300 1000
 Connection ~ 7300 1400
@@ -200,8 +172,6 @@ Wire Wire Line
 	3750 3550 3900 3550
 Wire Wire Line
 	4050 3850 4050 4750
-Wire Wire Line
-	2600 3400 2600 4050
 Connection ~ 1200 3400
 Wire Wire Line
 	1200 3200 1200 3400
@@ -321,19 +291,6 @@ F 3 "~" H 1200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
-U 1 1 60425283
-P 2600 4300
-F 0 "C?" H 2778 4346 50  0000 L CNN
-F 1 "0.1uF" H 2778 4255 50  0000 L CNN
-F 2 "" H 2600 4300 50  0001 C CNN
-F 3 "~" H 2600 4300 50  0001 C CNN
-	1    2600 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 4550 2600 4750
-$Comp
 L power:GND #PWR?
 U 1 1 603C2845
 P 2600 4900
@@ -441,4 +398,47 @@ Text Notes 7400 5000 0    50   ~ 0
 From Load Cell
 Text Notes 7450 3950 0    50   ~ 0
 From Pressure Transducer
+$Comp
+L Device:C C
+U 1 1 603C3DD0
+P 3150 1700
+F 0 "C" H 3265 1746 50  0000 L CNN
+F 1 "0.1 uF" H 3265 1655 50  0000 L CNN
+F 2 "" H 3188 1550 50  0001 C CNN
+F 3 "~" H 3150 1700 50  0001 C CNN
+	1    3150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1350 3150 1350
+$Comp
+L Device:C C
+U 1 1 603CA8F8
+P 7300 1950
+F 0 "C" H 7415 1996 50  0000 L CNN
+F 1 "0.1 uF" H 7415 1905 50  0000 L CNN
+F 2 "" H 7338 1800 50  0001 C CNN
+F 3 "~" H 7300 1950 50  0001 C CNN
+	1    7300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1400 7300 1800
+Wire Wire Line
+	7300 2100 7300 2300
+$Comp
+L Device:C C
+U 1 1 603D0090
+P 2600 4300
+F 0 "C" H 2715 4346 50  0000 L CNN
+F 1 "0.1 uF" H 2715 4255 50  0000 L CNN
+F 2 "" H 2638 4150 50  0001 C CNN
+F 3 "~" H 2600 4300 50  0001 C CNN
+	1    2600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3400 2600 4150
+Wire Wire Line
+	2600 4450 2600 4750
 $EndSCHEMATC
