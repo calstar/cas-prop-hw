@@ -1,0 +1,131 @@
+EESchema Schematic File Version 4
+LIBS:Prop-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4650 4400 4900 4400
+$Comp
+L power:+5V #PWR?
+U 1 1 60532CDB
+P 6300 3750
+F 0 "#PWR?" H 6300 3600 50  0001 C CNN
+F 1 "+5V" H 6315 3923 50  0000 C CNN
+F 2 "" H 6300 3750 50  0001 C CNN
+F 3 "" H 6300 3750 50  0001 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM386M-1_NOPB:LM386M-1_NOPB U?
+U 1 1 60532CE1
+P 5600 4300
+F 0 "U?" H 5600 4970 50  0000 C CNN
+F 1 "LM386M-1_NOPB" H 5600 4879 50  0000 C CNN
+F 2 "SOIC127P599X175-8N" H 5600 4300 50  0001 L BNN
+F 3 "" H 5600 4300 50  0001 L BNN
+	1    5600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60532CE7
+P 6300 4800
+F 0 "#PWR?" H 6300 4550 50  0001 C CNN
+F 1 "GND" H 6305 4627 50  0000 C CNN
+F 2 "" H 6300 4800 50  0001 C CNN
+F 3 "" H 6300 4800 50  0001 C CNN
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4800 6300 4700
+Wire Wire Line
+	6300 3750 6300 3900
+Text Notes 5750 3950 2    50   ~ 0
+Op-Amp
+Text Notes 5100 4950 0    50   ~ 0
+Gain = 50
+Wire Wire Line
+	4900 4100 4900 3800
+Wire Wire Line
+	4900 3800 4800 3800
+$Comp
+L Device:R_US R?
+U 1 1 60532CF3
+P 4650 3800
+F 0 "R?" V 4445 3800 50  0000 C CNN
+F 1 "1.2K" V 4536 3800 50  0000 C CNN
+F 2 "" V 4690 3790 50  0001 C CNN
+F 3 "~" H 4650 3800 50  0001 C CNN
+	1    4650 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60532CF9
+P 4200 3800
+F 0 "C?" V 3948 3800 50  0000 C CNN
+F 1 "10 uF" V 4039 3800 50  0000 C CNN
+F 2 "" H 4238 3650 50  0001 C CNN
+F 3 "~" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 3800 4500 3800
+Wire Wire Line
+	4050 3800 3900 3800
+Wire Wire Line
+	3900 3800 3900 4200
+Wire Wire Line
+	3900 4200 4900 4200
+$Comp
+L power:GND #PWR?
+U 1 1 60532D03
+P 4900 4800
+F 0 "#PWR?" H 4900 4550 50  0001 C CNN
+F 1 "GND" H 4905 4627 50  0000 C CNN
+F 2 "" H 4900 4800 50  0001 C CNN
+F 3 "" H 4900 4800 50  0001 C CNN
+	1    4900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60532D09
+P 6300 4450
+F 0 "C?" V 6048 4450 50  0000 C CNN
+F 1 "C" V 6139 4450 50  0000 C CNN
+F 2 "" H 6338 4300 50  0001 C CNN
+F 3 "~" H 6300 4450 50  0001 C CNN
+	1    6300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4600 6300 4700
+Connection ~ 6300 4700
+Text Notes 4950 3450 2    50   ~ 0
+This R & C control the gain
+Wire Wire Line
+	4900 4300 4900 4800
+Wire Wire Line
+	6300 4200 6550 4200
+Wire Wire Line
+	6300 4100 6300 4300
+Text HLabel 4650 4400 0    50   Input ~ 0
+in
+Text HLabel 6550 4200 2    50   Output ~ 0
+out
+$EndSCHEMATC
