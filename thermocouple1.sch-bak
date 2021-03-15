@@ -14,10 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4250 3650 0    50   Input ~ 0
-SCK
-Text GLabel 4250 3550 0    50   Input ~ 0
-SSB
 Connection ~ 6750 4250
 $Comp
 L MAX6675ISA_:MAX6675ISA+ U?
@@ -104,4 +100,9 @@ Text HLabel 4250 3750 0    50   Input ~ 0
 chromel
 Text HLabel 4250 3850 0    50   Input ~ 0
 alumel
+Text HLabel 4250 3550 0    50   Input ~ 0
+SSB
+NoConn ~ 4800 4050
+Text GLabel 4250 3650 0    50   Input ~ 0
+SCK
 $EndSCHEMATC

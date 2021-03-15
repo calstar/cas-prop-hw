@@ -86,7 +86,7 @@ Wire Wire Line
 	1500 3550 1500 3400
 Connection ~ 1500 3400
 Wire Wire Line
-	2800 1150 2950 1150
+	3000 1150 3150 1150
 $Comp
 L power:+5V #PWR?
 U 1 1 603B40E9
@@ -98,19 +98,19 @@ F 3 "" H 1500 950 50  0001 C CNN
 	1    1500 950 
 	1    0    0    -1  
 $EndComp
-Text Notes 2100 1200 0    50   ~ 0
+Text Notes 2300 1200 0    50   ~ 0
 Load Cell
-Text GLabel 2950 1150 2    50   Input ~ 0
+Text GLabel 3150 1150 2    50   Input ~ 0
 LOADCELL_OUT
 $Comp
 L FX292X_Lib:FX292X U?
 U 1 1 603BDAFB
-P 2250 1250
-F 0 "U?" H 2250 1615 50  0000 C CNN
-F 1 "FX292X" H 2250 1524 50  0000 C CNN
-F 2 "" H 2250 1250 50  0001 C CNN
-F 3 "" H 2250 1250 50  0001 C CNN
-	1    2250 1250
+P 2450 1250
+F 0 "U?" H 2450 1615 50  0000 C CNN
+F 1 "FX292X" H 2450 1524 50  0000 C CNN
+F 2 "" H 2450 1250 50  0001 C CNN
+F 3 "" H 2450 1250 50  0001 C CNN
+	1    2450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -134,22 +134,18 @@ Wire Wire Line
 $Comp
 L 1984989:1984989 J?
 U 1 1 6041FC25
-P 7800 1200
-F 0 "J?" H 7907 1567 50  0000 C CNN
-F 1 "1984989" H 7907 1476 50  0000 C CNN
-F 2 "PHOENIX_1984989" H 7800 1200 50  0001 L BNN
-F 3 "" H 7800 1200 50  0001 L BNN
-F 4 "Phoenix Contact" H 7800 1200 50  0001 L BNN "MANUFACTURER"
-F 5 "2018-11-03" H 7800 1200 50  0001 L BNN "PARTREV"
-F 6 "13.1mm" H 7800 1200 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "Manufacturer recommendations" H 7800 1200 50  0001 L BNN "STANDARD"
-	1    7800 1200
+P 7800 1300
+F 0 "J?" H 7907 1667 50  0000 C CNN
+F 1 "1984989" H 7907 1576 50  0000 C CNN
+F 2 "PHOENIX_1984989" H 7800 1300 50  0001 L BNN
+F 3 "" H 7800 1300 50  0001 L BNN
+F 4 "Phoenix Contact" H 7800 1300 50  0001 L BNN "MANUFACTURER"
+F 5 "2018-11-03" H 7800 1300 50  0001 L BNN "PARTREV"
+F 6 "13.1mm" H 7800 1300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer recommendations" H 7800 1300 50  0001 L BNN "STANDARD"
+	1    7800 1300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7150 1400 0    50   Input ~ 0
-SCK
-Text GLabel 7150 1550 0    50   Input ~ 0
-SSB
 $Comp
 L 1984989:1984989 J?
 U 1 1 6043A51E
@@ -166,11 +162,11 @@ F 7 "Manufacturer recommendations" H 7800 5750 50  0001 L BNN "STANDARD"
 	-1   0    0    -1  
 $EndComp
 Text Notes 5000 850  0    50   ~ 0
-To Thermocouple
-Text Notes 8000 750  2    50   ~ 0
-From Thermocouple Connector
+To Thermocouple 1
+Text Notes 8350 850  2    50   ~ 0
+Thermocouple 1 digital output
 Text Notes 8000 5300 2    50   ~ 0
-From ADC
+ADC Ouput
 $Comp
 L Device:C C
 U 1 1 603C3DD0
@@ -196,28 +192,9 @@ F 3 "~" H 1500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 950  1500 1150
+	3000 1600 3150 1600
 Wire Wire Line
-	1700 1150 1500 1150
-Wire Wire Line
-	1500 1600 1700 1600
-Wire Wire Line
-	1500 1600 1500 1550
-Wire Wire Line
-	1500 1250 1500 1150
-Connection ~ 1500 1150
-Wire Wire Line
-	1500 1600 1500 1800
-Connection ~ 1500 1600
-Wire Wire Line
-	2800 1600 2950 1600
-Wire Wire Line
-	2950 1600 2950 1800
-Wire Wire Line
-	2950 1800 1500 1800
-Connection ~ 1500 1800
-Wire Wire Line
-	1500 1800 1500 1950
+	3150 1600 3150 1800
 $Comp
 L MCU-MCP3008-I_P_DIP16-7.62MM_:MCU-MCP3008-I_P(DIP16-7.62MM) U?
 U 1 1 6044E605
@@ -279,9 +256,9 @@ Wire Wire Line
 Connection ~ 6700 5150
 Text Notes 6100 5250 2    50   ~ 0
 ADC
-Text Notes 3100 1950 2    50   ~ 0
+Text Notes 3300 1950 2    50   ~ 0
 Maximum load: 500 newtons
-Text Notes 2000 2050 0    50   ~ 0
+Text Notes 2200 2050 0    50   ~ 0
 Ouput: 100 mV at 500 newtons
 Text GLabel 5350 5150 0    50   Input ~ 0
 ADC_0
@@ -333,6 +310,7 @@ F1 "thermocouple1.sch" 50
 F2 "alumel" I L 5900 1300 50 
 F3 "chromel" I L 5900 1200 50 
 F4 "out" O R 6800 1200 50 
+F5 "SSB" I L 5900 1400 50 
 $EndSheet
 $Sheet
 S 5900 2250 900  900 
@@ -342,6 +320,7 @@ F1 "thermocouple2.sch" 50
 F2 "chromel" I L 5900 2350 50 
 F3 "alumel" I L 5900 2450 50 
 F4 "out" O R 6800 2350 50 
+F5 "SSB" I L 5900 2550 50 
 $EndSheet
 $Sheet
 S 5900 3400 900  900 
@@ -351,6 +330,7 @@ F1 "thermocouple3.sch" 50
 F2 "chromel" I L 5900 3500 50 
 F3 "alumel" I L 5900 3600 50 
 F4 "out" O R 6800 3500 50 
+F5 "SSB" I L 5900 3700 50 
 $EndSheet
 $Comp
 L 1984989:1984989 J?
@@ -372,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2450 5600 2450
 Text Notes 5000 2000 0    50   ~ 0
-To Thermocouple
+To Thermocouple 2
 $Comp
 L 1984989:1984989 J?
 U 1 1 6053BD1D
@@ -393,97 +373,78 @@ Wire Wire Line
 Wire Wire Line
 	5900 3600 5600 3600
 Text Notes 5000 3150 0    50   ~ 0
-To Thermocouple
-Wire Wire Line
-	7150 1400 7250 1400
-Wire Wire Line
-	7250 1400 7250 1100
-Wire Wire Line
-	7250 1100 7400 1100
-Wire Wire Line
-	7400 1300 7300 1300
-Wire Wire Line
-	7300 1300 7300 1550
-Wire Wire Line
-	7300 1550 7150 1550
-Wire Wire Line
-	7400 1200 6800 1200
+To Thermocouple 3
 $Comp
 L 1984989:1984989 J?
 U 1 1 6054FBA1
-P 7800 2350
-F 0 "J?" H 7907 2717 50  0000 C CNN
-F 1 "1984989" H 7907 2626 50  0000 C CNN
-F 2 "PHOENIX_1984989" H 7800 2350 50  0001 L BNN
-F 3 "" H 7800 2350 50  0001 L BNN
-F 4 "Phoenix Contact" H 7800 2350 50  0001 L BNN "MANUFACTURER"
-F 5 "2018-11-03" H 7800 2350 50  0001 L BNN "PARTREV"
-F 6 "13.1mm" H 7800 2350 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "Manufacturer recommendations" H 7800 2350 50  0001 L BNN "STANDARD"
-	1    7800 2350
+P 7800 2450
+F 0 "J?" H 7907 2817 50  0000 C CNN
+F 1 "1984989" H 7907 2726 50  0000 C CNN
+F 2 "PHOENIX_1984989" H 7800 2450 50  0001 L BNN
+F 3 "" H 7800 2450 50  0001 L BNN
+F 4 "Phoenix Contact" H 7800 2450 50  0001 L BNN "MANUFACTURER"
+F 5 "2018-11-03" H 7800 2450 50  0001 L BNN "PARTREV"
+F 6 "13.1mm" H 7800 2450 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer recommendations" H 7800 2450 50  0001 L BNN "STANDARD"
+	1    7800 2450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7150 2550 0    50   Input ~ 0
-SCK
-Text GLabel 7150 2700 0    50   Input ~ 0
-SSB
-Text Notes 8000 1900 2    50   ~ 0
-From Thermocouple Connector
-Wire Wire Line
-	7150 2550 7250 2550
-Wire Wire Line
-	7250 2550 7250 2250
-Wire Wire Line
-	7250 2250 7400 2250
-Wire Wire Line
-	7400 2450 7300 2450
-Wire Wire Line
-	7300 2450 7300 2700
-Wire Wire Line
-	7300 2700 7150 2700
-Wire Wire Line
-	7400 2350 6800 2350
+Text Notes 8350 2000 2    50   ~ 0
+Thermocouple 2 digital output
 $Comp
 L 1984989:1984989 J?
 U 1 1 605526CF
-P 7800 3500
-F 0 "J?" H 7907 3867 50  0000 C CNN
-F 1 "1984989" H 7907 3776 50  0000 C CNN
-F 2 "PHOENIX_1984989" H 7800 3500 50  0001 L BNN
-F 3 "" H 7800 3500 50  0001 L BNN
-F 4 "Phoenix Contact" H 7800 3500 50  0001 L BNN "MANUFACTURER"
-F 5 "2018-11-03" H 7800 3500 50  0001 L BNN "PARTREV"
-F 6 "13.1mm" H 7800 3500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "Manufacturer recommendations" H 7800 3500 50  0001 L BNN "STANDARD"
-	1    7800 3500
+P 7800 3600
+F 0 "J?" H 7907 3967 50  0000 C CNN
+F 1 "1984989" H 7907 3876 50  0000 C CNN
+F 2 "PHOENIX_1984989" H 7800 3600 50  0001 L BNN
+F 3 "" H 7800 3600 50  0001 L BNN
+F 4 "Phoenix Contact" H 7800 3600 50  0001 L BNN "MANUFACTURER"
+F 5 "2018-11-03" H 7800 3600 50  0001 L BNN "PARTREV"
+F 6 "13.1mm" H 7800 3600 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer recommendations" H 7800 3600 50  0001 L BNN "STANDARD"
+	1    7800 3600
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7150 3700 0    50   Input ~ 0
-SCK
-Text GLabel 7150 3850 0    50   Input ~ 0
-SSB
-Text Notes 8000 3050 2    50   ~ 0
-From Thermocouple Connector
-Wire Wire Line
-	7150 3700 7250 3700
-Wire Wire Line
-	7250 3700 7250 3400
-Wire Wire Line
-	7250 3400 7400 3400
-Wire Wire Line
-	7400 3600 7300 3600
-Wire Wire Line
-	7300 3600 7300 3850
-Wire Wire Line
-	7300 3850 7150 3850
-Wire Wire Line
-	7400 3500 6800 3500
-Wire Wire Line
-	6600 5550 7050 5550
-Wire Wire Line
-	7050 5550 7050 5650
+Text Notes 8350 3150 2    50   ~ 0
+Thermocouple 3 digital output
 Wire Wire Line
 	6600 5750 7400 5750
 Wire Wire Line
-	7050 5650 7400 5650
+	1500 950  1500 1150
+Wire Wire Line
+	1500 1550 1500 1600
+Wire Wire Line
+	1500 1150 1900 1150
+Connection ~ 1500 1150
+Wire Wire Line
+	1500 1150 1500 1250
+Wire Wire Line
+	1500 1600 1900 1600
+Connection ~ 1500 1600
+Wire Wire Line
+	1500 1600 1500 1800
+Wire Wire Line
+	1500 1800 3150 1800
+Connection ~ 1500 1800
+Wire Wire Line
+	1500 1800 1500 1950
+Wire Wire Line
+	5600 3700 5900 3700
+Wire Wire Line
+	6800 3500 7400 3500
+Wire Wire Line
+	7400 2350 6800 2350
+Wire Wire Line
+	5600 2550 5900 2550
+Wire Wire Line
+	6800 1200 7400 1200
+Wire Wire Line
+	5600 1400 5900 1400
+Wire Wire Line
+	6600 5550 7000 5550
+Wire Wire Line
+	7000 5550 7000 5650
+Wire Wire Line
+	7000 5650 7400 5650
 $EndSCHEMATC
