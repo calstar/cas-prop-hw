@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:Prop-cache
+LIBS:CAS_bus-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -102,7 +103,7 @@ Text HLabel 4250 3450 0    50   Input ~ 0
 alumel
 Text HLabel 4250 3150 0    50   Input ~ 0
 SSB
-Text HLabel 4250 3250 0    50   Input ~ 0
-SCK
 NoConn ~ 4800 3650
+Text GLabel 4250 3250 0    50   Input ~ 0
+SCK
 $EndSCHEMATC
