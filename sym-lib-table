@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Prop-rescue)(type Legacy)(uri ${KIPRJMOD}/Prop-rescue.lib)(options "")(descr ""))
+  (lib (name star-common-lib)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/star-common-lib.lib)(options "")(descr ""))
+)
