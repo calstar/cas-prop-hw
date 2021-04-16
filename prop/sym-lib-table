@@ -1,3 +1,6 @@
 (sym_lib_table
-  (lib (name star-common-lib)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/star-common-lib.lib)(options "")(descr ""))
+  (lib (name Prop-rescue)(type Legacy)(uri ${KIPRJMOD}/Prop-rescue.lib)(options "")(descr ""))
+  (lib (name star-common-lib)(type Legacy)(uri /Users/cooper/Desktop/kicad/CAS/hardware-sch-blocks/star-common-lib.lib)(options "")(descr ""))
+  (lib (name core-cache)(type Legacy)(uri /Users/cooper/Desktop/kicad/CAS/cas-core-hw/core/core-cache.lib)(options "")(descr ""))
+  (lib (name prop-cache)(type Legacy)(uri /Users/cooper/Desktop/kicad/CAS/cas-prop-hw/prop/Prop-cache.lib)(options "")(descr ""))
 )
