@@ -1,6 +1,6 @@
-update=Thursday, April 15, 2021 at 08:13:08 PM
+update=Friday, April 23, 2021 at 01:11:39 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Prop.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -39,8 +39,11 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.254
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.5588
+ViaDrill2=0.254
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -67,19 +70,19 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
+Name=GND
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=PWR
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
