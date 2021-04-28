@@ -1,4 +1,4 @@
-update=Friday, April 23, 2021 at 01:53:44 PM
+update=Tuesday, April 27, 2021 at 08:21:03 PM
 version=1
 last_client=pcbnew
 [general]
@@ -33,8 +33,8 @@ AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0.4
-MinViaDrill=0.3
+MinViaDiameter=0.5588
+MinViaDrill=0.254
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
