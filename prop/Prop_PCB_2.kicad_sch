@@ -728,7 +728,7 @@
   (no_connect (at 223.52 144.78) (uuid 184b2fad-24f5-4073-ae78-9c4ec35fa867))
   (no_connect (at 251.46 101.6) (uuid 1d27c77d-c33f-442a-bd7b-7b44d10eb43c))
   (no_connect (at 223.52 93.98) (uuid 1ede663d-ba50-4484-9b1c-7fb1f1ce1196))
-  (no_connect (at 223.52 96.52) (uuid 1ede663d-ba50-4484-9b1c-7fb1f1ce1196))
+  (no_connect (at 223.52 96.52) (uuid 1ede663d-ba50-4484-9b1c-7fb1f1ce1197))
   (no_connect (at 251.46 142.24) (uuid 2717f789-6e9a-45e5-ba68-0e97a483a090))
   (no_connect (at 223.52 151.13) (uuid 28c42959-8e72-4709-83e0-fbb99eade23c))
   (no_connect (at 81.28 85.09) (uuid 2a6f1b1e-6809-43d7-b0c5-e4424e33d333))
@@ -737,8 +737,8 @@
   (no_connect (at 251.46 139.7) (uuid 3cdd1d4e-65c2-4726-934e-57a60432541b))
   (no_connect (at 81.28 82.55) (uuid 3e1cb3e4-d855-414e-b1ff-d8f86a215960))
   (no_connect (at 223.52 124.46) (uuid 6116c06f-bd81-4247-be76-91adb314c832))
-  (no_connect (at 223.52 127) (uuid 6116c06f-bd81-4247-be76-91adb314c832))
-  (no_connect (at 251.46 96.52) (uuid 6116c06f-bd81-4247-be76-91adb314c832))
+  (no_connect (at 223.52 127) (uuid 6116c06f-bd81-4247-be76-91adb314c833))
+  (no_connect (at 251.46 96.52) (uuid 6116c06f-bd81-4247-be76-91adb314c834))
   (no_connect (at 251.46 111.76) (uuid 6dd24007-4e31-4437-a050-fa6e699c9468))
   (no_connect (at 223.52 132.08) (uuid 7ce3b15b-ff03-4c37-a69c-50cee9ac8363))
   (no_connect (at 223.52 147.32) (uuid 83616a1b-53cb-4bc4-bfc7-a340c75ffaa4))
@@ -749,7 +749,7 @@
   (no_connect (at 251.46 109.22) (uuid a756a3d8-e7f6-433b-b40a-4f16e0acf771))
   (no_connect (at 251.46 133.35) (uuid a7b396e8-387b-4006-982d-ca6acb770010))
   (no_connect (at 251.46 93.98) (uuid b6830578-f2fe-492b-aac6-727ca18df6ba))
-  (no_connect (at 223.52 99.06) (uuid b6830578-f2fe-492b-aac6-727ca18df6ba))
+  (no_connect (at 223.52 99.06) (uuid b6830578-f2fe-492b-aac6-727ca18df6bb))
   (no_connect (at 223.52 104.14) (uuid baac58cf-ba1a-4451-8078-47a320ad2217))
   (no_connect (at 251.46 148.59) (uuid c06b07a5-81e8-4fba-b75f-eafa053e1406))
   (no_connect (at 223.52 101.6) (uuid cfc25d70-2748-49fe-bb69-5196d9ea547d))
@@ -1520,10 +1520,10 @@
     (uuid f2480d0c-9b08-4037-9175-b2369af04d4c)
   )
 
-  (global_label "MISO" (shape input) (at 113.03 74.93 0) (fields_autoplaced)
+  (global_label "SPI0_MISO" (shape input) (at 113.03 74.93 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0665c844-75de-4413-85e3-8b98f0e71e4c)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.0393 74.8506 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 125.3007 74.8506 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1583,10 +1583,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "CLK" (shape input) (at 113.03 72.39 0) (fields_autoplaced)
+  (global_label "SPI0_SCK" (shape input) (at 113.03 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 33a8266d-1b6a-4554-a0e1-82e6f7b29acb)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 119.0112 72.3106 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 124.4541 72.3106 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1611,10 +1611,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "MOSI" (shape input) (at 113.03 77.47 0) (fields_autoplaced)
+  (global_label "SPI0_MOSI" (shape input) (at 113.03 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5c792644-68c4-4c63-b3ae-d4a2c7f28ae0)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.0393 77.3906 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 125.3007 77.3906 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3630,10 +3630,10 @@
     (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000060597f31"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000060597f92"
+    (path "/49575217-40b0-4890-8acf-12982cca52b5/00000000-0000-0000-0000-000060597f92"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/49575217-40b0-4890-8acf-12982cca52b5/00000000-0000-0000-0000-000060597f92"
+    (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/00000000-0000-0000-0000-000060597f92"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00e38d63-5436-49db-81f5-697421f168fc"
@@ -3897,10 +3897,10 @@
     (path "/3a013e8f-5b12-499b-8d2d-0ad49966db1a"
       (reference "U?") (unit 1) (value "MCP3008") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/65a8b55e-a85b-43de-a7c0-277e3d0e143e"
+    (path "/49575217-40b0-4890-8acf-12982cca52b5/65a8b55e-a85b-43de-a7c0-277e3d0e143e"
       (reference "U?") (unit 1) (value "MAX6675ISA+") (footprint "star-common-lib:SOIC127P600X175-8N")
     )
-    (path "/49575217-40b0-4890-8acf-12982cca52b5/65a8b55e-a85b-43de-a7c0-277e3d0e143e"
+    (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/65a8b55e-a85b-43de-a7c0-277e3d0e143e"
       (reference "U?") (unit 1) (value "MAX6675ISA+") (footprint "star-common-lib:SOIC127P600X175-8N")
     )
     (path "/7614d1b3-3ead-4914-90b1-e5e05187dd06"
