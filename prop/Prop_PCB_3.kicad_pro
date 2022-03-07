@@ -103,7 +103,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.25,
         "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -117,12 +117,23 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.2032,
+        0.254,
+        0.508
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5588,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.9144,
+          "drill": 0.508
         }
       ],
       "zones_allow_external_fillets": false,

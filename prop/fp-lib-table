@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "star-common-lib")(type "KiCad")(uri "/Users/xiyupeng/Desktop/cas-prop-hw/prop/hardware-sch-blocks/star-common-lib.pretty")(options "")(descr ""))
+  (lib (name "star-common-lib")(type "KiCad")(uri "${KIPRJMOD}/hardware-sch-blocks/star-common-lib.pretty")(options "")(descr ""))
 )
